@@ -26,7 +26,17 @@
           background : ${darkColor};
           border-radius : 6px;
           color: ${lightColor};
+          margin-right : 20px;
         }
+
+        #pulseaudio{
+          background : ${darkColor};
+          border-radius : 6px;
+          color: ${lightColor};
+          margin-right : 20px;
+        }
+
+
 
     
 

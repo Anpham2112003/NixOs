@@ -17,7 +17,7 @@
     nixosConfigurations.anpham = nixpkgs.lib.nixosSystem {
 		
 		modules = [
-			./configuration.nix
+			./host/configuration.nix
 			./modules/bluetooth.nix
 			./modules/amd.nix
 			./modules/font.nix
