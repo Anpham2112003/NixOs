@@ -18,12 +18,14 @@
 		
 		modules = [
 			./host/configuration.nix
+			./host/package.nix
 			./modules/bluetooth.nix
 			./modules/amd.nix
 			./modules/font.nix
 			./modules/sddm.nix
 			./modules/zsh.nix
 			./modules/audio.nix
+			
 			home-manager.nixosModules.home-manager {
 				home-manager.useGlobalPkgs = true;
 				home-manager.useUserPackages = true;

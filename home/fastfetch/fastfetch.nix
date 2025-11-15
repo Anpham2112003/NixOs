@@ -1,8 +1,6 @@
 {config,pkgs,...}:
 {
   home.packages = with pkgs; [
-      pavucontrol  
-      nwg-displays
-      wbg
+      fastfetch
   ];
 }

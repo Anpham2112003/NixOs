@@ -11,5 +11,6 @@
 		./code/vscode.nix
 		./code/git.nix
 		./wofi/wofi.nix
+		./fastfetch/fastfetch.nix
 	];
 }

@@ -19,7 +19,6 @@
 
         #waybar{
           background: transparent;
-          margin-top: 20px;
         }
 
         #battery{
@@ -27,6 +26,8 @@
           border-radius : 6px;
           color: ${lightColor};
           margin-right : 20px;
+          margin-top: 20px;
+          padding : 5px 0px;
         }
 
         #pulseaudio{
@@ -34,6 +35,8 @@
           border-radius : 6px;
           color: ${lightColor};
           margin-right : 20px;
+          margin-top : 20px;
+          padding : 5px 0px;
         }
 
 
