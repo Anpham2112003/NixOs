@@ -14,5 +14,6 @@
 		./keybinding.nix
 		./animation.nix
 		./variable.nix
+		./wallpaper.nix
 	];
 }

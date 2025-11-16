@@ -1,17 +1,18 @@
 {config,pkgs,...}:
 {
     wayland.windowManager.hyprland.settings = {
+		"exec-once" = "waybar";
 		"$mod" = "SUPER";
 		bind = [
-		    "$mod, B , exec , firefox"
-		    "$mod , Q , killactive"
-		    "$mod , T , exec , kitty "
-				"$mod, F , fullscreen"
-				"$mod , A , exec , wofi --show drun"
-				"$mod , P , pin"
+		  "$mod, B , exec , firefox"
+		  "$mod , Q , killactive"
+		  "$mod , T , exec , kitty "
+			"$mod, F , fullscreen"
+			"$mod , A , exec , wofi --show drun"
+			"$mod , P , pin"
 
 		]
-		++ (
+		++ ( 
 			# Funtion return List [ "$mod, 1, workspace , 1" "$mod, 2, workspace , 2" ... ]
 			# And Append List Bind key
         builtins.genList (i:
